@@ -2,25 +2,26 @@ package in.ec.model;
 
 public class Shopingkart {
 
-private String Product_id;
-private String Quantity;
-private String Order_id;
-public String getProduct_id() {
-	return Product_id;
+private String productId;
+private String quantity;
+private String orderId;
+public String getProductId() {
+	return productId;
 }
-public void setProduct_id(String product_id) {
-	Product_id = product_id;
+public void setProductId(String productId) {
+	this.productId = productId;
 }
 public String getQuantity() {
-	return Quantity;
+	return quantity;
 }
 public void setQuantity(String quantity) {
-	Quantity = quantity;
+	this.quantity = quantity;
 }
-public String getOrder_id() {
-	return Order_id;
+public String getOrderId() {
+	return orderId;
 }
-public void setOrder_id(String order_id) {
-	Order_id = order_id;
+public void setOrderId(String orderId) {
+	this.orderId = orderId;
 }
+
 }

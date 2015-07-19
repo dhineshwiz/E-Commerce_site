@@ -9,53 +9,48 @@ public class Product {
 	@Id
 	private String id;
 	private String name;
-	private String Description;
-	private String Price;
+	private String description;
+	private String price;
 	private String quantity;
-	private String Seller_id;
-
-	public void setSeller_id(String Seller_id) {
-		this.Seller_id = Seller_id;
-	}
-	
-
+	private String sellerId;
 	public String getId() {
 		return id;
 	}
-
 	public void setId(String id) {
 		this.id = id;
 	}
-
 	public String getName() {
-		return this.name;
+		return name;
 	}
 	public void setName(String name) {
 		this.name = name;
 	}
-
 	public String getDescription() {
-		return Description;
+		return description;
 	}
-
 	public void setDescription(String description) {
-		Description = description;
+		this.description = description;
 	}
-
 	public String getPrice() {
-		return Price;
+		return price;
 	}
-
 	public void setPrice(String price) {
-		Price = price;
+		this.price = price;
 	}
-
 	public String getQuantity() {
 		return quantity;
 	}
-
 	public void setQuantity(String quantity) {
 		this.quantity = quantity;
 	}
+	public String getSellerId() {
+		return sellerId;
+	}
+	public void setSellerId(String sellerId) {
+		this.sellerId = sellerId;
+	}
+
+
+
 
 }

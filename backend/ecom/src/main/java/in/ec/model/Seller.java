@@ -3,32 +3,28 @@ package in.ec.model;
 public class Seller {
 
 	@org.springframework.data.annotation.Id
-	private String Id;
-	private String Name;
-	private String Address;
-
-	public String getName() {
-		return Name;
-	}
-
-	public void setName(String name) {
-		Name = name;
-	}
-
+	private String id;
+	private String name;
+	private String address;
 	public String getId() {
-		return Id;
+		return id;
 	}
-
 	public void setId(String id) {
-		Id = id;
+		this.id = id;
 	}
-
+	public String getName() {
+		return name;
+	}
+	public void setName(String name) {
+		this.name = name;
+	}
 	public String getAddress() {
-		return Address;
+		return address;
+	}
+	public void setAddress(String address) {
+		this.address = address;
 	}
 
-	public void setAddress(String address) {
-		Address = address;
-	}
+	
 
 }
