@@ -1,8 +1,20 @@
 package in.ec.model;
 
-public class Shopingkart {
+import org.springframework.data.annotation.Id;
+import org.springframework.data.mongodb.core.mapping.Document;
 
+@Document(collection = "shopingkart")
+public class Shopingkart {
+@Id
+private String id;
 private String productId;
+
+public String getId() {
+	return id;
+}
+public void setId(String id) {
+	this.id = id;
+}
 private String quantity;
 private String orderId;
 public String getProductId() {
