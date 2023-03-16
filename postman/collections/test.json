@@ -14,6 +14,11 @@
 					"name": "{spacecraftId}",
 					"item": [
 						{
+							"name": "test",
+							"item": [],
+							"id": "3055cc25-fed2-461f-aa66-7c670ec06875"
+						},
+						{
 							"name": "Read a spacecraft",
 							"id": "53c7bfaa-d677-4945-896a-7f566defca6e",
 							"protocolProfileBehavior": {
